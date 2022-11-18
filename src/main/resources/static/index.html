@@ -9,14 +9,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <style>
+        fieldset{
+                box-shadow: 5px 6px 8px 5px rgba(0, 0, 0, 1); 
+                max-width: 1000px; 
+                margin: auto; 
+                text-align: justify;
+                background-color:#2BA748
+            }
+    </style>
     <body>
-        <center><h1>KTM</h1></center> 
+        <fieldset><center><h1>KTM</h1></center> 
         <hr>
         <form method="post" enctype="multipart/form-data" action="/next">
             Nama  : <input type="text" name="varA" required=""/>
             <br>
             <br>
-            Tanggal Lahir : <input type="date" name="varB"/>
+            Tanggal Lahir : <input type="date" name="varB"required=""/>
             <br>
             <br>
             Email Kampus <input type="text" name="varC"required=""/>
